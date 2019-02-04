@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Google Maps API</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="launch_maps">launch maps</string>
+</resources>
