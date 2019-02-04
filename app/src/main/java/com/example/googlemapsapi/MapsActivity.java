@@ -127,7 +127,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng latLng3 = null;
 
         try {
-            address3 = geocoder.getFromLocationName("98-11 44th Avenue, Queens, NY 11368", 5);
+            address3 = geocoder.getFromLocation(40.6793907, -73.8079922, 5);
             if (address3 != null) {
                 Address location = address3.get(2);
                 latLng3 = new LatLng(location.getLatitude(), location.getLongitude());
